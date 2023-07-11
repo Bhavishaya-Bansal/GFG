@@ -1,6 +1,6 @@
 import java.util.*;
 
-// This code is used to insert and delete element at certain posn
+// This code is used to insert and delete element at certain position
 public class InsertDelete {
     public static void main(String[] args) {
         int capacity= 10;

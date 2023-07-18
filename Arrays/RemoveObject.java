@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class RomeveObject {
+public class RemoveObject {
     public static void main(String[] args) {
         String arr[]= {"Hi", "I", "am", "Hi", "Bhav", "Hi"};
         String object= "Hi";

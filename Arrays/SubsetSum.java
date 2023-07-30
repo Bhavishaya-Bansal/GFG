@@ -27,7 +27,7 @@ public class SubsetSum {
             return ;
         }
         
-        helper(arr, n, sum+ arr.get(i), i+1, ans);
-        helper(arr, n, sum, i+1, ans);
+        helper(arr, n, sum+ arr.get(i), i+1, ans); // taking the element in our subset
+        helper(arr, n, sum, i+1, ans); //not taking our element in our subset
     }
 }

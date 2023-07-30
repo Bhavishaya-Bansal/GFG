@@ -20,6 +20,7 @@ public class SubsetSum {
         return ans;
     }
     
+    // here we have used the method of taking and not taking the particular element from our arraylist.. simply if we take it we add it in our subset, if we dont take it we dont add it in our subset
     public static void helper(ArrayList<Integer> arr, int n, int sum, int i, ArrayList<Integer> ans){
         if(i== n){
             ans.add(sum);

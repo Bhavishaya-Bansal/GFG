@@ -4,7 +4,7 @@ import java.util.*;
 public class SubsetSum {
     public static void main(String[] args) {
         // This is how we declare an arraylist with already having items in it
-        ArrayList<Integer> arr= new ArrayList<>(Arrays.asList(2, 3));
+        ArrayList<Integer> arr= new ArrayList<>(Arrays.asList(1,2,3));
         int n= arr.size();
         ArrayList<Integer> ans= subsetSums(arr, n);
         for (int i = 0; i < ans.size(); i++) {

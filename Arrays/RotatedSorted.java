@@ -6,7 +6,7 @@ public class RotatedSorted {
     public static void main(String args[]) {
         int arr[]= {9, 5, 3, 35, 26, 11};
         int arr2[]= {23, 34, 45, 56, 17, 19};
-        boolean ans= isCircular(arr2);
+        boolean ans= isCircular(arr);
         System.out.println(ans);
     }
 

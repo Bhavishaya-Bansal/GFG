@@ -23,6 +23,7 @@ public class Practice {
         if(arr[start]<= arr[mid]){
             
         }
+        return -1;
 
     }
     
